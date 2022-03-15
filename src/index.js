@@ -13,10 +13,13 @@ import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
 
 //Component
 import App from './component/App'
+import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
-    <App />,
+   <BrowserRouter>
+      <App />
+   </BrowserRouter>,
   document.getElementById('root')
 );
 
